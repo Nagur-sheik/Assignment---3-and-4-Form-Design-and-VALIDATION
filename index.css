@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    background-color: #FFA500;
+    color:#121212;
+}
+body{
+	    background-image:url("C:\Users\sheik\Desktop\web\web\C0785550_FAQ\Assignment3 and 4\IMAGES/toronto.jpg");
+
+	
+}
+nav {
+	overflow: hidden;
+    padding:20px;
+    background-color: #808080;
+
+}
+#id {
+	
+	float: right;
+}
+.nav-container {
+	display:flex;
+
+}
+
+
+container {
+    gap:10px;
+    margin: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    /* color:#ffffff; */
+    line-height: 100px;
+    margin: 0;
+  }
+  .flex-container p {
+      text-align: justify;
+      padding:2px;
+  }
+  .form-container {
+    max-width: 500px;
+    margin:auto;
+    padding: 40px;
+    border: 2px solid #000000;
+    margin-top: 20px;
+  }
+  input[type=submit] {
+    
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    /* background-color: ; */
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+}
+input[type=text] ,input[type=password], input[type=email],input[type=tel]{
+
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin:5px;
+    font-weight: bold;
+}
+input[type=radio]{
+
+    width: 10%;
+    padding: 2px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+label {
+    font-size: 20px;
+}
+input[type=submit]:hover {
+
+    background: ##000000;
+    color:#ffffff;
+    transition: background-color 2s  ease-in-out;
+
+}
+
